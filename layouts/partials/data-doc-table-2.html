@@ -1,0 +1,115 @@
+<table>
+    {{/*  <thead>Table 2. The summary of relationships in GenomicKB frontend</thead>  */}}
+    <tr>
+        <th>Relationship type</th>
+        <th>Relationship subtype</th>
+        <th>From</th>
+        <th>To</th>
+    </tr>
+<!--  Positional  -->
+    <tr>
+        <td rowspan="4">Positional</td>
+        <td>Overlap (overlap)</td>
+        <td>All entities that have a location property</td>
+        <td>All entities that have a location property</td>
+    </tr>
+    <tr>
+        <td>Locate in (locate_in)</td>
+        <td>All entities that have a location property</td>
+        <td>All entities that have a location property</td>
+    </tr>
+    <tr>
+        <td>Upstream</td>
+        <td>All entities that have a location property</td>
+        <td>All entities that have a location property</td>
+    </tr>
+    <tr>
+        <td>Downstream</td>
+        <td>All entities that have a location property</td>
+        <td>All entities that have a location property</td>
+    </tr>
+<!--  Expression  -->
+    <tr>
+        <td rowspan="5">Expression</td>
+        <td>Express into</td>
+        <td>Gene</td>
+        <td>Transcriptional factor</td>
+    </tr>
+    <tr>
+        <td>Express in</td>
+        <td>Gene</td>
+        <td>Tissue and cell line</td>
+    </tr>
+    <tr>
+        <td>Transcribe (transcribe_into)</td>
+        <td>Gene</td>
+        <td>Transcript</td>
+    </tr>
+    <tr>
+        <td>Translate (translate_into)</td>
+        <td>Transcript</td>
+        <td>Protein</td>
+    </tr>
+    <tr>
+        <td>Include</td>
+        <td>Transcript</td>
+        <td>Exon</td>
+    </tr>
+<!--  Regulatory  -->
+    <tr>
+        <td rowspan="5">Regulatory</td>
+        <td rowspan="2">Regulate</td>
+        <td>Gene</td>
+        <td>Gene</td>
+    </tr>
+    <tr>
+        <td>Enhancer</td>
+        <td>Gene</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Expression QTLs (correlate_with)</td>
+        <td>Variant</td>
+        <td>Gene</td>
+    </tr>
+    <tr>
+        <td>Variant</td>
+        <td>Ontology</td>
+    </tr>
+    <tr>
+        <td>GWAS association</td>
+        <td>Sequence variant</td>
+        <td>Ontology</td>
+    </tr>
+<!--  Interaction  -->
+    <tr>
+        <td rowspan="2">Interaction</td>
+        <td>Ligand receptor pair</td>
+        <td>Gene</td>
+        <td>Gene</td>
+    </tr>
+    <tr>
+        <td>Protein Interaction</td>
+        <td>Gene</td>
+        <td>Gene</td>
+    </tr>
+<!--  Annotation  -->
+    <tr>
+        <td rowspan="4">Annotation</td>
+        <td rowspan="2">Belong to</td>
+        <td>Gene</td>
+        <td>Ontology</td>
+    </tr>
+    <tr>
+        <td>Non coding RNA</td>
+        <td>Ontology</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Function annotation</td>
+        <td>Genes</td>
+        <td>Gene Ontology</td>
+    </tr>
+    <tr>
+        <td>Non coding RNA</td>
+        <td>Gene Ontology</td>
+    </tr>
+</table>

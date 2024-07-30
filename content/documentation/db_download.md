@@ -9,7 +9,7 @@ weight: 3
 The dump of GenomicKB database is **freely** available for **academic users** by following the download link. **Commercial/nonacademic users**, please reach out to us by clicking 'contact' on the same download link.
 {{% /notice %}}
 
-The database is managed by FlintBox at the University of Michigan. **Please follow the instructions to download.**
+Access to the database is managed by Innovation Partnerships at the University of Michigan. **Please follow the instructions to download.**
 1. Choose the version you prefer to download and click the link in the “Database Dump” column in the table. You will be guided to GenomicKB’s FlintBox Page.
 2. After reading and confirming the in licensing information, click “BUY” in the bottom to submit a request form.
 3. The GenomicKB team will review your form within 3 working days. If approved, a link for the dump of the database will be sent to your mailbox.

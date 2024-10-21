@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'GKB Documentation'
+title = 'PanKgraph Documentation'
 theme = 'hugo-theme-relearn'
 
 [params]

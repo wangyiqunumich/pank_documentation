@@ -7,3 +7,4 @@ archetype: 'home'
 
 ### Welcome to PanKgraph Doc
 This page serves as the documentation for PanKgraph.
+test test
